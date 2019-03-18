@@ -16,6 +16,8 @@ Install Node.js dependencies.
 npm install
 ```
 
+All endpoints are secured with basic auth. Use the environment variable `AUTH_PASS` to set a password. Username `admin` is fixed.
+
 Run server.
 
 ```bash
